@@ -1,5 +1,9 @@
 ## Hi there 👋
 
+My name is Ryan, I mess around with stuff and things
+
+I'm currently working on upskilling my DevOps and cloud skills with Azure, AWS and a local raspberry pi.
+
 <!--
 **durosyan/durosyan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
