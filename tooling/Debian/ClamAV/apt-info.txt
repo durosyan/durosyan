@@ -1,0 +1,43 @@
+Package: clamav
+Version: 1.0.3+dfsg-1~deb12u1
+Priority: optional
+Section: utils
+Maintainer: ClamAV Team <pkg-clamav-devel@lists.alioth.debian.org>
+Installed-Size: 29.7 MB
+Depends: clamav-freshclam (>= 1.0.3+dfsg) | clamav-data, libc6 (>= 2.34), libclamav11 (>= 1.0.3), libcurl4 (>= 7.16.2), libgcc-s1 (>= 4.2), libjson-c5 (>= 0.15), libssl3 (>= 3.0.0), zlib1g (>= 1:1.2.3.3)
+Recommends: clamav-base
+Suggests: libclamunrar, clamav-docs
+Homepage: https://www.clamav.net/
+Tag: implemented-in::c, interface::commandline, role::program,
+ scope::utility, security::antivirus, use::scanning, works-with::file,
+ works-with::mail
+Download-Size: 5,673 kB
+APT-Manual-Installed: yes
+APT-Sources: http://deb.debian.org/debian bookworm/main amd64 Packages
+Description: anti-virus utility for Unix - command-line interface
+ Clam AntiVirus is an anti-virus toolkit for Unix. The main purpose of
+ this software is the integration with mail servers (attachment
+ scanning). The package provides a flexible and scalable
+ multi-threaded daemon in the clamav-daemon package, a command-line
+ scanner in the clamav package, and a tool for automatic updating via
+ the Internet in the clamav-freshclam package. The programs are based
+ on libclamav, which can be used by other software.
+ .
+ This package contains the command line interface. Features:
+  - built-in support for various archive formats, including Zip, Tar,
+    Gzip, Bzip2, OLE2, Cabinet, CHM, BinHex, SIS and others;
+  - built-in support for almost all mail file formats;
+  - built-in support for ELF executables and Portable Executable files
+    compressed with UPX, FSG, Petite, NsPack, wwpack32, MEW, Upack and
+    obfuscated with SUE, Y0da Cryptor and others;
+  - built-in support for popular document formats including Microsoft
+    Office and Mac Office files, HTML, RTF and PDF.
+ .
+ For scanning to work, a virus database is needed. There are two options
+ for getting it:
+  - clamav-freshclam: updates the database from Internet. This is
+    recommended with Internet access.
+  - clamav-data: for users without Internet access. The package is
+    not updated once installed. The clamav-getfiles package allows
+    creating custom packages from an Internet-connected computer.
+

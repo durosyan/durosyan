@@ -1,0 +1,23 @@
+# Vagrantfile for Alpine Linux with Docker
+Vagrant.configure("2") do |config|
+  config.vm.box = "generic/alpine38"
+  # config.vm.network "private_network", type: "dhcp"
+
+  # Customize VM settings
+  config.vm.provider "virtualbox" do |vb|
+    # aws free tier alpine
+    vb.memory = 1024 # 1GB RAM
+    vb.cpus = 1      # 1 vCPUs
+  end
+
+  # config.vm.synced_folder "vagrant_shared/", "/vagrant_shared", type: "nfs", mount_options: ["vers=3,tcp"]
+
+  # Provisioning script to install Docker
+  config.vm.provision "shell", inline: <<-SHELL
+    apk update
+    apk add docker
+    rc-update add docker boot
+    service docker start
+    addgroup vagrant docker
+  SHELL
+end
