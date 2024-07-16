@@ -40,19 +40,20 @@
     .icon-grid-item {
       display: flex;
       justify-content: center;
+
     }
 
     .icon {
       width: 50px;
       height: 50px;
-      box-shadow: black 2px 2px;
+      box-shadow: black 5px 5px;
       padding: 5px;
       border: solid black;
       border-radius: 10px;
+      background-color: white;
     }
 
     .icon:hover {
-      box-shadow: grey 2px 2px;
       border: solid grey;
     }
 
@@ -62,13 +63,23 @@
     }
 
     a {
-      color: black;
+      color: white;
       text-decoration: none;
     }
 
     section {
       display: grid;
       gap: 20px;
+    }
+
+    header {
+      text-align: center;
+      color: white;
+    }
+
+    body {
+      background-color: #282828;
+      color: white;
     }
 
     #map {
@@ -90,9 +101,11 @@
 <body>
   <div class="wrapper">
     <header>
+      <a href="https://durosyan.github.io/durosyan/">
       <h1>
-        <a href="https://durosyan.github.io/durosyan/">durosyan.github.io</a>
+        durosyan.github.io
       </h1>
+      </a>
     </header>
     <section>
       <div class="section-grid-item">
