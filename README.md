@@ -7,7 +7,8 @@ I really have no idea what I'm doing, but sometimes it works!
 
 [whatsmyname.app](https://whatsmyname.app/)
 
-SITE |	USERNAME |	CATEGORY |	LINK |
+SITE |	USERNAME |	CATEGORY |	LINK
+-----|-----------|-----------|-------
 Behance | durosyan | business | https://www.behance.net/durosyan
 dev.to | durosyan | coding | https://dev.to/durosyan
 GitHub | durosyan | coding | https://github.com/durosyan
