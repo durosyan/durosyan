@@ -1,4 +1,6 @@
 #!/bin/sh
+
+# curl -fsSL https://tailscale.com/install.sh
 # Copyright (c) Tailscale Inc & AUTHORS
 # SPDX-License-Identifier: BSD-3-Clause
 #

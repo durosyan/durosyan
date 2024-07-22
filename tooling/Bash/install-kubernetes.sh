@@ -1,4 +1,14 @@
-#!/usr/bin/bash
+#!/bin/sh
+
+if ! command -v lsb_release &> /dev/null; then
+    echo "lsb_release command not found."
+    exit 1
+fi
+
+if [ "$(lsb_release -si)" != "Debian" ]; then
+    echo "Operating system is not Debian"
+    exit 1
+fi
 
 apt-get update
 apt-get upgrade

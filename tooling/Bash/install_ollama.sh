@@ -1,4 +1,6 @@
 #!/bin/sh
+
+# curl -fsSL https://ollama.com/install.sh
 # This script installs Ollama on Linux.
 # It detects the current operating system architecture and installs the appropriate version of Ollama.
 

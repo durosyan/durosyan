@@ -1,5 +1,10 @@
 #!/bin/sh
 
+# https://nordvpn.com/download/linux/
+# sh <(curl -sSf https://downloads.nordcdn.com/apps/linux/install.sh)
+# go to account and get a token
+# nordvpn login --token <token>
+
 # check for root access
 SUDO=
 if [ "$(id -u)" -ne 0 ]; then

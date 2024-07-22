@@ -30,10 +30,3 @@ foreach ($m in $messages) {
         $r | Out-File "Directory"
     }
 }
-
-note to self: File Name goes here
-note to self: file.name.
-note to self: file-name-
-note to self: file\name
-
-file name goes here

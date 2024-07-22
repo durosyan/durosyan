@@ -1,5 +1,15 @@
-#!/bin/bash
+#!/bin/sh
 # some basic setup for debian, run this first
+
+if ! command -v lsb_release &> /dev/null; then
+    echo "lsb_release command not found."
+    exit 1
+fi
+
+if [ "$(lsb_release -si)" != "Debian" ]; then
+    echo "Operating system is not Debian"
+    exit 1
+fi
 
 # template
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
