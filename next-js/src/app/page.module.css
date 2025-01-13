@@ -34,7 +34,7 @@
   grid-row-start: 2;
 }
 
-.main ol {
+.main ul {
   font-family: var(--font-geist-mono);
   padding-left: 0;
   margin: 0;
@@ -42,6 +42,8 @@
   line-height: 24px;
   letter-spacing: -0.01em;
   list-style-position: inside;
+  text-decoration: none;
+  list-style: none;
 }
 
 .main li:not(:last-of-type) {
@@ -161,8 +163,8 @@ a.secondary {
   }
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   .logo {
     filter: invert();
   }
-}
+} */

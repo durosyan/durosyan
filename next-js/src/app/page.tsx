@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import nextSvg from "../../assets/next.svg";
+import nextSvg from "../assets/image.svg";
 
 export default function Home() {
   return (
@@ -9,46 +9,29 @@ export default function Home() {
         <Image
           className={styles.logo}
           src={nextSvg}
-          alt="Next.js logo"
+          alt="Feasable Denial Logo"
           width={180}
-          height={38}
+          height={180}
           priority
         />
-        <ol>
+        <ul>
           <li>
-            Get started by editing <code>src/app/page.tsx</code>.
+            Hello i'm <code>Ryan</code>
           </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+          <li>This is my personal page</li>
+        </ul>
 
         <div className={styles.ctas}>
           <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="https://github.com/FeasableDenial/notes"
             className={styles.secondary}
           >
-            Read our docs
+            Read my notes
           </a>
         </div>
       </main>
       <footer className={styles.footer}>
-        <a
+        {/* <a
           href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
@@ -60,21 +43,7 @@ export default function Home() {
             width={16}
             height={16}
           />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
+          Blog
         </a>
         <a
           href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
@@ -88,8 +57,8 @@ export default function Home() {
             width={16}
             height={16}
           />
-          Go to nextjs.org →
-        </a>
+          Profiles
+        </a> */}
       </footer>
     </div>
   );
