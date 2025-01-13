@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "FeasableDenial",
+  title: "Plausible Denial",
   description: "Ryan's personal page",
 };
 
