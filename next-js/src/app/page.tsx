@@ -23,7 +23,7 @@ export default function Home() {
 
         <div className={styles.ctas}>
           <a
-            href="https://github.com/FeasableDenial/notes"
+            href="https://github.com/plausible-denial/notes"
             className={styles.secondary}
           >
             Read my notes
