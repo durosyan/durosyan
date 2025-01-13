@@ -16,7 +16,7 @@ export default function Home() {
         />
         <ul>
           <li>
-            Hello i'm <code>Ryan</code>
+            Hello I am <code>Ryan</code>
           </li>
           <li>This is my personal page</li>
         </ul>
