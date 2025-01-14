@@ -6,7 +6,8 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "npm run build && gh-pages -d out --nojekyll"
   },
   "dependencies": {
     "date-fns": "^4.1.0",
