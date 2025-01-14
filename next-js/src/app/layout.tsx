@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Plausible Denial",
-  description: "Ryan's personal page",
+  description: "frontend for my notes",
 };
 
 export default function RootLayout({
