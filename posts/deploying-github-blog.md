@@ -19,7 +19,7 @@ npx create-next-app@latest nextjs-blog \
 npm install gh-pages
 ```
 
-4. Configure nextjs, replace `<repo_name>`
+4. Configure the next.config.js file, replace `<repo_name>`
 
 ```js
 const nextConfig = {
@@ -28,9 +28,9 @@ const nextConfig = {
     assetPrefix: isProd ? "/<repo_name>/" : "",
     output: 'export'
 };
-```
 
 module.exports = nextConfig;
+```
 
 5. Run deploy!
 
