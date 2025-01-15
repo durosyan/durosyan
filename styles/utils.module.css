@@ -45,6 +45,9 @@
 
 .listItem {
   margin: 0 0 1.25rem;
+  background-color: #333333;
+  border-radius: 5px;
+  padding: 10px
 }
 
 .lightText {
@@ -62,4 +65,14 @@
 .table td {
   border: 1px solid #ddd;
   padding: 8px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tags small a {
+  color: #666;
 }

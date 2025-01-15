@@ -13,13 +13,21 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
+          {allPostsData.map(({ id, date, title, tags }) => (
             <li className={utilStyles.listItem} key={id}>
               <Link href={`/posts/${id}`}>{title}</Link>
               <br />
               <small className={utilStyles.lightText}>
                 <Date dateString={date} />
               </small>
+              <br />
+              <div className={utilStyles.tags}>
+                {tags.map((tag) => (
+                  <small key={tag}>
+                    <Link href={`/tags/${tag}`}>{tag}</Link>
+                  </small>
+                ))}
+              </div>
             </li>
           ))}
         </ul>

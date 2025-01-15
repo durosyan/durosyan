@@ -6,7 +6,7 @@ tags: 'windows, user management, engineering'
 
 ## How to Add a Local User in Windows 11 24H3
 
-Navigating through Windows installation processes often requires a few strategic moves to customize your experience fully. Windows 11 24H3's setup doesn’t make it straightforward to create a local user account, often pushing for Microsoft account integration. But, if you're determined to create a local user, here's a step-by-step guide inspired by tech enthusiasts and YouTube creators Britec and CyberCPU Tech.
+To create a local user account during Windows 11 24H3 setup, follow these steps by [Britec](https://youtu.be/Q3TnVAPPqac) and [CyberCPU Tech](https://youtu.be/Mn9bhG4nWel).
 
 ### Pre-Login Setup
 
@@ -18,7 +18,7 @@ The journey begins during the installation phase, particularly when approaching 
 2. **Create and Empower a Local User:**
    - Enter the following commands sequentially to add a new administrator account:
 
-```
+```bat
 net user Admin /add
 net localgroup Administrators Admin /add
 cd OOBE
@@ -36,9 +36,9 @@ If you wish to bypass the internet requirement often pushed by Windows setup, fo
 
 2. **Employ the Bypass Trick:**
    - In the Command Prompt, type:
-     ```
-     oobe\bypassnro
-     ```
-   - Once executed, choose "I don’t have internet" when it prompts, and proceed to "Create local user."
 
-Following these steps allows you to establish a local account while maintaining autonomy over your Windows 11 settings, ensuring privacy and a personalized computing experience without the need for a Microsoft account. For visual learners, detailed walkthroughs are available on YouTube channels like [Britec](https://youtu.be/Q3TnVAPPqac) and [CyberCPU Tech](https://youtu.be/Mn9bhG4nWel), providing in-depth insights and guidance.
+```bat
+oobe\bypassnro
+```
+
+   - Once executed, choose "I don’t have internet" when it prompts, and proceed to "Create local user."
