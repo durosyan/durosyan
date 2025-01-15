@@ -7,7 +7,7 @@ date: '2025-01-15'
 
 2. Clone the repository and initialise with a nextjs blog starter
 
-```
+```bash
 npx create-next-app@latest nextjs-blog \
 --use-npm \
 --example "https://github.com/vercel/next-learn/tree/main/basics/dynamic-routes-starter"
@@ -15,8 +15,12 @@ npx create-next-app@latest nextjs-blog \
 
 3. Install and confgiure gh-pages
 
-`npm install gh-pages`
+```bash
+npm install gh-pages
+```
 
 4. Run deploy!
 
-`npm run build && gh-pages -d out --nojekyll`
+```bash
+npm run build && gh-pages -d out --nojekyll
+```

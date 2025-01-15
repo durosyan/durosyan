@@ -10,14 +10,19 @@
     "deploy": "npm run build && gh-pages -d out --nojekyll"
   },
   "dependencies": {
+    "@microflash/rehype-starry-night": "^7.2.1",
     "date-fns": "^4.1.0",
     "gh-pages": "^6.3.0",
     "gray-matter": "^4.0.3",
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "rehype": "^13.0.2",
     "remark": "^15.0.1",
-    "remark-html": "^16.0.1"
+    "remark-html": "^16.0.1",
+    "remark-parse": "^11.0.0",
+    "remark-rehype": "^11.1.1",
+    "unified": "^11.0.5"
   },
   "engines": {
     "node": ">=18"
