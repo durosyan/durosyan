@@ -11,6 +11,8 @@ export default function Post({ tag, tagPosts }) {
             <Head>
                 <title>{tag}</title>
             </Head>
+            <h1>{tag}</h1>
+            <ul className={utilStyles.list}>
             {tagPosts.map(({ id, date, title }) => (
                 <li className={utilStyles.listItem} key={id}>
                     <Link href={`/posts/${id}`}>{title}</Link>
@@ -20,6 +22,7 @@ export default function Post({ tag, tagPosts }) {
                     </small>
                 </li>
             ))}
+            </ul>
         </Layout>
     );
 }
