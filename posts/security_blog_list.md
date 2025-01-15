@@ -1,0 +1,90 @@
+---
+title: 'Security Blogs'
+date: '2025-01-15'
+tags: 'privacy, hacking'
+---
+
+This page contains a comprehensive list of security blogs and resources. It includes blogs from individual experts, cybersecurity companies, and major tech organizations. Each entry provides a link to the blog and a brief description of the content covered, ranging from ethical hacking tutorials to the latest news and insights on cybersecurity.
+
+- [Simply Cyber](https://simplycyber.io/) Run by Dr. Gerry Auger, this blog provides guidance and resources for those looking to start a career in cybersecurity.
+- [Hackernoon](https://hackernoon.com/) Covers a wide range of tech topics, including hacking and emerging technologies.
+- [StationX](https://www.stationx.net/blog/) Offers a diverse range of articles on cybersecurity, including hacking techniques, career guidance, and tutorials.
+- [Null Byte](https://null-byte.wonderhowto.com/) Focuses on ethical hacking techniques and tutorials.
+- [The Hacker News](https://thehackernews.com/) Covers the latest news on cybersecurity, hacking, and technology.
+- [Graham Cluley](https://www.grahamcluley.com/) Insights from a veteran anti-virus expert.
+- [Schneier on Security](https://www.schneier.com/) Bruce Schneier's blog on security and security technology.
+- [Krebs on Security](https://krebsonsecurity.com/) Investigative stories on cybercrime and computer security by Brian Krebs.
+- [CSO Online](https://www.csoonline.com/) Best practices on business continuity, data protection, and security careers.
+- [Dark Reading](https://www.darkreading.com/) News and information on IT security.
+- [Threatpost](https://threatpost.com/) News on IT and business security.
+- [SecurityWeek](https://www.securityweek.com/) Cybersecurity news and information.
+- [Bleeping Computer](https://www.bleepingcomputer.com/) News, reviews, and technical support for security.
+- [TaoSecurity](https://taosecurity.blogspot.com/) Richard Bejtlich's blog on digital security.
+- [We Live Security](https://www.welivesecurity.com/) ESET's blog on security news and insights.
+- [Naked Security](https://nakedsecurity.sophos.com/) Sophos' blog on security news and advice.
+- [SANS Internet Storm Center](https://isc.sans.edu/) Daily diaries on security threats.
+- [Zero Day](https://www.zdnet.com/blog/zero-day/) ZDNet's blog on security news and analysis.
+- [Security Affairs](https://securityaffairs.co/wordpress/) Pierluigi Paganini's blog on security and hacking.
+- [The Register](https://www.theregister.com/) News on IT and security.
+- [Infosecurity Magazine](https://www.infosecurity-magazine.com/) News and analysis on information security.
+- [Help Net Security](https://www.helpnetsecurity.com/) News, trends, and analysis on security.
+- [Cyber Defense Magazine](https://www.cyberdefensemagazine.com/) News and insights on cybersecurity.
+- [The Security Ledger](https://securityledger.com/) News and analysis on cybersecurity.
+- [The Daily Swig](https://portswigger.net/daily-swig) News on web security.
+- [Packet Storm Security](https://packetstormsecurity.com/) News and tools for security professionals.
+- [HackerOne Blog](https://www.hackerone.com/blog) Insights from the bug bounty platform.
+- [Bugcrowd Blog](https://www.bugcrowd.com/blog/) News and insights from the bug bounty community.
+- [Rapid7 Blog](https://www.rapid7.com/blog/) News and insights on security.
+- [FireEye Blog](https://www.fireeye.com/blog.html) News and insights on cybersecurity.
+- [McAfee Blog](https://www.mcafee.com/blogs/) News and insights on security.
+- [Symantec Blog](https://symantec-enterprise-blogs.security.com/) News and insights on security.
+- [Trend Micro Blog](https://blog.trendmicro.com/) News and insights on security.
+- [Kaspersky Blog](https://www.kaspersky.com/blog/) News and insights on security.
+- [Fortinet Blog](https://www.fortinet.com/blog) News and insights on security.
+- [Check Point Blog](https://blog.checkpoint.com/) News and insights on security.
+- [Avast Blog](https://blog.avast.com/) News and insights on security.
+- [Bitdefender Blog](https://www.bitdefender.com/blog/) News and insights on security.
+- [F-Secure Blog](https://blog.f-secure.com/) News and insights on security.
+- [Securelist](https://securelist.com/) Kaspersky's blog on security news and analysis.
+- [Threat Intelligence Blog](https://www.threatintelligence.com/blog/) Insights on threat intelligence.
+- [Security Intelligence](https://securityintelligence.com/) IBM's blog on security news and insights.
+- [LinkedIn Security Blog](https://engineering.linkedin.com/blog/topic/security) News and insights on security from LinkedIn.
+- [Twitter Security Blog](https://blog.twitter.com/en_us/topics/company/security) News and insights on security from Twitter.
+- [GitHub Security Blog](https://github.blog/category/security/) News and insights on security from GitHub.
+- [Reddit Security Blog](https://www.redditinc.com/blog/tag/security) News and insights on security from Reddit.
+- [Slack Security Blog](https://slack.com/blog/security) News and insights on security from Slack.
+- [Zoom Security Blog](https://blog.zoom.us/category/security/) News and insights on security from Zoom.
+- [Dropbox Security Blog](https://blog.dropbox.com/topics/security) News and insights on security from Dropbox.
+- [Box Security Blog](https://blog.box.com/category/security) News and insights on security from Box.
+- [Salesforce Security Blog](https://www.salesforce.com/blog/category/security.html) News and insights on security from Salesforce.
+- [Oracle Security Blog](https://blogs.oracle.com/security/) News and insights on security from Oracle.
+- [SAP Security Blog](https://blogs.sap.com/tag/security/) News and insights on security from SAP.
+- [VMware Security Blog](https://blogs.vmware.com/security/) News and insights on security from VMware.
+- [Adobe Security Blog](https://blog.adobe.com/en/topics/security.html) News and insights on security from Adobe.
+- [Intel Security Blog](https://www.intel.com/content/www/us/en/security-overview/blogs.html) News and insights on security from Intel.
+- [AMD Security Blog](https://community.amd.com/t5/security/ct-p/security) News and insights on security from AMD.
+- [NVIDIA Security Blog](https://blogs.nvidia.com/blog/category/security/) News and insights on security from NVIDIA.
+- [ARM Security Blog](https://community.arm.com/developer/tools-software/security/b/blog) News and insights on security from ARM.
+- [Qualcomm Security Blog](https://www.qualcomm.com/company/blog/security) News and insights on security from Qualcomm.
+- [Broadcom Security Blog](https://techdocs.broadcom.com/us/en/security.html) News and insights on security from Broadcom.
+- [Cisco Security Blog](https://blogs.cisco.com/security) News and insights on security from Cisco.
+- [Juniper Networks Security Blog](https://blogs.juniper.net/security) News and insights on security from Juniper Networks.
+- [Arista Networks Security Blog](https://blogs.arista.com/category/security/) News and insights on security from Arista Networks.
+- [F5 Networks Security Blog](https://www.f5.com/labs/articles) News and insights on security from F5 Networks.
+- [A10 Networks Security Blog](https://www.a10networks.com/blog/) News and insights on security from A10 Networks.
+- [Palo Alto Networks Security Blog](https://www.paloaltonetworks.com/blog/) News and insights on security from Palo Alto Networks.
+- [Check Point Security Blog](https://blog.checkpoint.com/) News and insights on security from Check Point.
+- [Sophos Security Blog](https://news.sophos.com/en-us/) News and insights on security from Sophos.
+- [ESET Security Blog](https://www.eset.com/blog/) News and insights on security from ESET.
+- [Avast Security Blog](https://blog.avast.com/) News and insights on security from Avast.
+- [Malwarebytes Security Blog](https://blog.malwarebytes.com/) News and insights on security from Malwarebytes.
+- [Bitdefender Security Blog](https://www.bitdefender.com/blog/) News and insights on security from Bitdefender.
+- [F-Secure Security Blog](https://blog.f-secure.com/) News and insights on security from F-Secure.
+- [Securelist Security Blog](https://securelist.com/) News and insights on security from Securelist.
+- [Threat Intelligence Security Blog](https://www.threatintelligence.com/blog/) News and insights on security from Threat Intelligence.
+- [Security Intelligence Security Blog](https://securityintelligence.com/) News and insights on security from Security Intelligence.
+- [Microsoft Security Blog](https://www.microsoft.com/security/blog/) News and insights on security from Microsoft.
+- [Google Security Blog](https://security.googleblog.com/) News and insights on security from Google.
+- [Facebook Security Blog](https://www.facebook.com/security) News and insights on security from Facebook.
+- [Apple Security Blog](https://support.apple.com/en-us/HT201222) News and insights on security from Apple.
+- [Amazon Security Blog](https://aws.amazon.com/blogs/security/) News and insights on security from Amazon.
