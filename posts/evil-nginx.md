@@ -1,4 +1,7 @@
-# EvilNginx
+---
+title: 'Man in the middle with evil nginx'
+date: '2025-01-15'
+---
 
 [kgretzky/evilginx2](https://github.com/kgretzky/evilginx2)
 
