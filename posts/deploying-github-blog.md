@@ -1,6 +1,7 @@
 ---
 title: 'Deploying a github blog with nextjs'
 date: '2025-01-15'
+tags: 'tinkering, snippets, engineering'
 ---
 
 1. Create a github repository with the same name as your account name.

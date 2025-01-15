@@ -1,6 +1,7 @@
 ---
 title: 'Man in the middle with evil nginx'
 date: '2025-01-15'
+tags: 'tinkering, hacking'
 ---
 
 [kgretzky/evilginx2](https://github.com/kgretzky/evilginx2)

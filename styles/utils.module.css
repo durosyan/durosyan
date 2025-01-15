@@ -50,3 +50,16 @@
 .lightText {
   color: #666;
 }
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 0 1.25rem;
+  border: 1px solid #ddd;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
