@@ -13,3 +13,27 @@
 .backToHome {
   margin: 3rem 0 0;
 }
+
+.nav {
+  margin: 2rem 0 5rem;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  list-style-type: none;
+  margin: 0 1rem;
+  gap: 5rem;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: #AC6218;
+  text-decoration: underline;
+}

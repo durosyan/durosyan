@@ -1,3 +1,4 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+The page for me.
 
-https://nextjs.org/learn-pages-router/basics/dynamic-routes/setup
+- https://nextjs.org/learn-pages-router/basics/dynamic-routes/setup
+- https://gist.github.com/brayevalerien/cb94ac685ebc186f359deae113b6710c

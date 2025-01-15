@@ -16,6 +16,8 @@ body {
     sans-serif;
   line-height: 1.6;
   font-size: 18px;
+  background-color: #272822;
+  color: #E3E3DD;
 }
 
 * {
@@ -23,7 +25,7 @@ body {
 }
 
 a {
-  color: #0070f3;
+  color: #E3E3DD;
   text-decoration: none;
 }
 
