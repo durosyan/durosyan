@@ -38,8 +38,8 @@ export default function Layout({ children, currentPage }) {
       </Head>
       <header className={styles.header}>
         <>
-          <div className={styles.headerHome}>
-            <div>
+          <div className={styles.headerBorder}>
+            <div className={styles.headerBox}>
               <h1 className={utilStyles.heading2Xl}>{name}</h1>
             </div>
           </div>

@@ -42,3 +42,16 @@
   color: #AC6218;
   text-decoration: underline;
 }
+
+.headerBorder {
+  width: 100%;
+  border: solid #333333;
+  padding: 10px;
+}
+
+.headerBox {
+  background-color: #333333;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
