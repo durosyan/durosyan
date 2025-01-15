@@ -19,7 +19,20 @@ npx create-next-app@latest nextjs-blog \
 npm install gh-pages
 ```
 
-4. Run deploy!
+4. Configure nextjs, replace `<repo_name>`
+
+```js
+const nextConfig = {
+    images: { unoptimized: true },
+    basePath: isProd ? "/<repo_name>" : "",
+    assetPrefix: isProd ? "/<repo_name>/" : "",
+    output: 'export'
+};
+```
+
+module.exports = nextConfig;
+
+5. Run deploy!
 
 ```bash
 npm run build && gh-pages -d out --nojekyll
