@@ -6,17 +6,17 @@ import Link from 'next/link';
 const name = 'Plausible Denial';
 export const siteTitle = 'another next js blog';
 
-function Navigation() {
+function Navigation({ currentPage }) {
   return (
     <nav className={styles.nav}>
       <ul>
-        <li>
+        <li className={currentPage == 'home' ? styles.active : ''}>
           <Link href="/">Blog</Link>
         </li>
-        <li>
+        <li className={currentPage == 'about' ? styles.active : ''}>
           <Link href="/about">About</Link>
         </li>
-        <li>
+        <li className={currentPage == 'tags' ? styles.active : ''}>
           <Link href="/tags">Tags</Link>
         </li>
       </ul>
@@ -24,7 +24,7 @@ function Navigation() {
   );
 }
 
-export default function Layout({ children, home }) {
+export default function Layout({ children, currentPage }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -37,28 +37,17 @@ export default function Layout({ children, home }) {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header className={styles.header}>
-        {home ? (
-          <>
-            <div className={styles.headerHome}>
-              <div>
-                <h1 className={utilStyles.heading2Xl}>{name}</h1>
-              </div>
+        <>
+          <div className={styles.headerHome}>
+            <div>
+              <h1 className={utilStyles.heading2Xl}>{name}</h1>
             </div>
-            <Navigation />
-          </>
-        ) : (
-          <>
-            <Link href="/" />
-            <h2 className={utilStyles.headingLg}>
-              <Link href="/" className={utilStyles.colorInherit}>
-                {name}
-              </Link>
-            </h2>
-          </>
-        )}
+          </div>
+          <Navigation currentPage={currentPage} />
+        </>
       </header>
       <main>{children}</main>
-      {!home && (
+      {currentPage != 'home' && (
         <div className={styles.backToHome}>
           <Link href="/">← Back to home</Link>
         </div>

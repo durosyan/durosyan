@@ -7,7 +7,7 @@ import Date from '../components/date';
 
 export default function Home({ allPostsData }) {
   return (
-    <Layout home>
+    <Layout currentPage={'home'}>
       <Head>
         <title>{siteTitle}</title>
       </Head>
