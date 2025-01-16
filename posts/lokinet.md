@@ -6,6 +6,8 @@ tags: 'privacy, networking, decentralization'
 
 ### Exploring LokiNet: A Hidden Network with a Blockchain Twist
 
+[https://lokinet.org/](https://lokinet.org/)
+
 In the ever-evolving realm of online privacy and decentralization, LokiNet emerges as a notable player. It's often compared to Tor, thanks to its focus on laying the groundwork for a privacy-centric internet experience. Yet, there's an intriguing angle to LokiNet—it leans on blockchain technologies, setting it apart from its better-known counterpart.
 
 While Tor and blockchain might feel like an odd pairing, it's worth clarifying that Tor itself doesn't inherently operate on blockchain technology. However, LokiNet, an offshoot from the Oxen blockchain (formerly known as Loki), is designed with decentralization at its core, using blockchain for incentivizing the sustainable operation of its network.
