@@ -3,8 +3,8 @@ import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
-const name = 'Plausible Denial';
-export const siteTitle = 'another next js blog';
+const name = 'Ryans Notes';
+export const siteTitle = 'Notes for ryan';
 
 function Navigation({ currentPage }) {
   return (
