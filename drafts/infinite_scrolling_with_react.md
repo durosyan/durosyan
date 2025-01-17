@@ -4,7 +4,11 @@ date: '2025-01-16'
 tags: 'react, infinite scrolling, engineering'
 ---
 
-[View the CodeSandbox Example](https://codesandbox.io/p/sandbox/yk7637p62z?file=%2Fsrc%2Findex.js%3A32%2C10-32%2C24)
+[react-window](https://github.com/bvaughn/react-window)
+
+[code-sandbox](https://codesandbox.io/p/sandbox/github/bvaughn/react-window/tree/master/website/sandboxes/fixed-size-list-vertical)
+
+
 
 I want to implement infinite scrolling on my website, but displaying all the content at once can be bad for memory and may cause lag when scrolling through large amounts of data.
 
