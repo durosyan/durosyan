@@ -2,7 +2,7 @@ import Layout from '../../components/layout';
 import Date from '../../components/date';
 import Link from 'next/link';
 import utilStyles from '../../styles/utils.module.css';
-import { getPostsByTag, getAllTags } from '../../lib/posts';
+import { getPostsByTag, getAllTags } from '../../lib/tags';
 import Head from 'next/head';
 
 export default function Post({ tag, tagPosts }) {

@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
-import { getAllTags } from '../lib/posts';
+import { getAllTags } from '../lib/tags';
 import { getRandomColor } from '../lib/colour';
 
 export default function Tags({ allTags }) {
