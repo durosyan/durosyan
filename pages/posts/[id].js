@@ -23,7 +23,6 @@ export default function Post({ postData }) {
 
 export async function getStaticProps({ params }) {
     const postData = await getPostData(params.id);
-
     return {
         props: {
             postData,
