@@ -1,6 +1,6 @@
 ---
 title: 'Bluetooth BadUSB with RPI'
-date: '2025-01-16'
+# date: '2025-01-16'
 tags: 'hacking, tinkering, engineering'
 ---
 
