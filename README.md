@@ -1,14 +1,13 @@
-The page for my blog
+This is my github pages repository. It's full of notes and things that I do.
 
-I used this colour scheme: [monokai](https://gist.github.com/brayevalerien/cb94ac685ebc186f359deae113b6710c)
+I'm a passionate IT professional with experience in software engineering and cybersecurity.
 
-## How next works
+My goal is to become a cybersecurity professional, and I'm currently studying for my CompTIA Security+ certification.
 
-- https://nextjs.org/learn-pages-router/basics/dynamic-routes/setup
-- https://gist.github.com/brayevalerien/cb94ac685ebc186f359deae113b6710c
+In my spare time, I enjoy bouldering, hiking, and volunteering with the [British Mountaineering Council](https://www.thebmc.co.uk/en/get-involved-volunteering).
 
-# How the syntax hightlighting works
+The purpose of this blog is to:
 
-- https://github.com/remarkjs/remark-rehype?tab=readme-ov-file#use
-- https://github.com/wooorm/starry-night/tree/main/style
-- https://github.com/Microflash/rehype-starry-night?tab=readme-ov-file#install
+1. Document my learning journey
+2. Share my experiences
+3. Help others
