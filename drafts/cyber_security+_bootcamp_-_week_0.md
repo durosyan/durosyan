@@ -1,16 +1,14 @@
 ---
 title: 'Cyber Security+ Bootcamp - Week 0'
-# date: '2025-01-16'
+date: '2025-01-20'
 tags: 'cyber security, hacking, privacy'
 ---
 
-Cohort 1002
+# Cohort 1002
 
 - Certification: [Cyber Security+](https://www.comptia.org/certifications/security)
 - Learning Provider: [Digitise.tech](https://digitise.tech/courses/cyber-security-bootcamp/)
 - Resources: [Google Drive](https://drive.google.com/drive/folders/1i8OAdC0RUn44lOsn0GLfV6PmynM7pqPT?usp=sharing)
-
-Cost: £749 (includes certification)
 
 ---
 
