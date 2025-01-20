@@ -10,9 +10,9 @@ In these markdown files, there are sometimes code snippets, which look boring wi
 
 To make these look better I implemented this syntax highlighting library
 
-- https://github.com/remarkjs/remark-rehype?tab=readme-ov-file#use
-- https://github.com/wooorm/starry-night/tree/main/style
-- https://github.com/Microflash/rehype-starry-night?tab=readme-ov-file#install
+- [remark-rehype](https://github.com/remarkjs/remark-rehype?tab=readme-ov-file#use)
+- [starry-night](https://github.com/wooorm/starry-night/tree/main/style)
+- [rehype-starry-night](https://github.com/Microflash/rehype-starry-night?tab=readme-ov-file#install)
 
 How these are implemented here is demonstrated in the [lib/posts/posts.js](https://github.com/plausible-denial/plausible-denial/blob/main/lib/posts.js) file of the github repository for this site:
 
