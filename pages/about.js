@@ -17,7 +17,7 @@ export default function About() {
         <Link href={'https://app.hackthebox.com/profile/964011'}><Htb className={utilStyles.htbIcon} /></Link>
         <Link href={'#linkedin'}><LinkedIn className={utilStyles.linkedinIcon} /></Link>
       </section>
-      <section className={utilStyles.headingMd}>
+      <section className={utilStyles.about}>
         <p>Hello, I'm a passionate IT professional with experience in software engineering and cybersecurity.</p>
         <p>My goal is to become a cybersecurity professional, and I'm currently studying for my CompTIA Security+ certification.</p>
         <p>In my spare time, I enjoy bouldering, hiking, and volunteering with the <a href='https://www.thebmc.co.uk/en/get-involved-volunteering'>British Mountaineering Council.</a></p>

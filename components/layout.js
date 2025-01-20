@@ -3,24 +3,31 @@ import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
-const name = 'Ryans Notes';
-export const siteTitle = 'Notes for ryan';
+const name = 'Pl4us1bleD3n1al';
+export const siteTitle = 'Notes for the future';
 
 function Navigation({ currentPage }) {
   return (
-    <nav className={styles.nav}>
-      <ul>
-        <li className={currentPage == 'home' ? styles.active : ''}>
-          <Link href="/">Blog</Link>
-        </li>
-        <li className={currentPage == 'about' ? styles.active : ''}>
-          <Link href="/about">About</Link>
-        </li>
-        <li className={currentPage == 'tags' ? styles.active : ''}>
-          <Link href="/tags">Tags</Link>
-        </li>
-      </ul>
-    </nav>
+    <></>
+    // <nav className={styles.nav}>
+    //   <ul>
+    //     <Link href="/">
+    //       <li className={currentPage == 'home' ? styles.active : ''}>
+    //         Blog
+    //       </li>
+    //     </Link>
+    //     <Link href="/about">
+    //       <li className={currentPage == 'about' ? styles.active : ''}>
+    //         About
+    //       </li>
+    //     </Link>
+    //     <Link href="/tags">
+    //       <li className={currentPage == 'tags' ? styles.active : ''}>
+    //         Tags
+    //       </li>
+    //     </Link>
+    //   </ul>
+    // </nav>
   );
 }
 
@@ -37,14 +44,7 @@ export default function Layout({ children, currentPage }) {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header className={styles.header}>
-        <>
-          <div className={styles.headerBorder}>
-            <div className={styles.headerBox}>
-              <h1 className={utilStyles.heading2Xl}>{name}</h1>
-            </div>
-          </div>
-          <Navigation currentPage={currentPage} />
-        </>
+        <Navigation currentPage={currentPage} />
       </header>
       <main>{children}</main>
       {currentPage != 'home' && (

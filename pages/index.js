@@ -25,6 +25,9 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
 
+      <Link href="/about" className={utilStyles.aboutLink}>?</Link>
+
+
       <div className={utilStyles.search}>
         <input
           type="text"
@@ -32,6 +35,7 @@ export default function Home({ allPostsData }) {
           onChange={(e) => setFilteredPosts(searchPosts(e.target.value, allPostsData))}
         />
       </div>
+
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <ul className={utilStyles.list}>
           {filteredPosts.map(({ id, date, title, tags }) => (

@@ -29,18 +29,24 @@
   gap: 5rem;
 }
 
+.nav li {
+  display: inline;
+  background-color: #333333;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
 .nav a {
   text-decoration: none;
 }
 
 .nav a:hover {
   color: #AC6218;
-  text-decoration: underline;
 }
 
 .active a {
   color: #AC6218;
-  text-decoration: underline;
 }
 
 .headerBorder {
@@ -54,4 +60,23 @@
   width: 100%;
   text-align: center;
   padding: 10px;
+}
+
+@media (prefers-color-scheme: light) {
+  .nav li {
+    background-color: #f0f0f0;
+  }
+
+  .headerBorder {
+    border-color: #f0f0f0;
+  }
+
+  .headerBox {
+    background-color: #f0f0f0;
+  }
+
+  .nav a:hover,
+  .active a {
+    color: #AC6218;
+  }
 }

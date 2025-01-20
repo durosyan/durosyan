@@ -153,3 +153,66 @@
   height: 50px;
   fill: #AC6218;
 }
+
+.about {
+  margin: 0 0 2rem 0;
+  background-color: #333333;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 10px;
+}
+
+.aboutLink {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: #333333;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.aboutLink:hover {
+  background-color: #444444;
+  color: #fff;
+}
+
+@media (prefers-color-scheme: light) {
+  .aboutLink {
+    background-color: #f0f0f0;
+  }
+  
+  .aboutLink:hover {
+    background-color: #ffffff;
+    color: #000;
+  }
+
+  .listItem {
+    background-color: #f9f9f9;
+  }
+
+  .search input {
+    background-color: #ffffff;
+    color: #000;
+    border: 1px solid #ccc;
+  }
+
+  .search input:focus {
+    background-color: #f0f0f0;
+    border-color: #bbb;
+  }
+
+  .chip {
+    background-color: #e0e0e0;
+    color: #000;
+  }
+
+  .chip:hover::after {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .about {
+    background-color: #f9f9f9;
+    color: #000;
+  }
+}
