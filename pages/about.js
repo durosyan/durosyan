@@ -1,6 +1,10 @@
 import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
 import utilStyles from '../styles/utils.module.css';
+import Link from 'next/link';
+import Github from '../icons/github.svg';
+import Htb from '../icons/hackthebox.svg';
+import LinkedIn from '../icons/linkedin.svg';
 
 export default function About() {
   return (
@@ -8,6 +12,11 @@ export default function About() {
       <Head>
         <title>{siteTitle}</title>
       </Head>
+      <section className={utilStyles.icons}>
+        <Link href={'https://github.com/plausible-denial'}><Github className={utilStyles.githubIcon} /></Link>
+        <Link href={'https://app.hackthebox.com/profile/964011'}><Htb className={utilStyles.htbIcon} /></Link>
+        <Link href={'#linkedin'}><LinkedIn className={utilStyles.linkedinIcon} /></Link>
+      </section>
       <section className={utilStyles.headingMd}>
         <p>Hello, I'm a passionate IT professional with experience in software engineering and cybersecurity.</p>
         <p>My goal is to become a cybersecurity professional, and I'm currently studying for my CompTIA Security+ certification.</p>

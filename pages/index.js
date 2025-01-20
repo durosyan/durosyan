@@ -24,6 +24,7 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
+
       <div className={utilStyles.search}>
         <input
           type="text"
