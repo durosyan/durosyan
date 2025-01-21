@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import Layout, { siteTitle } from '../components/layout';
-import utilStyles from '../styles/utils.module.css';
+import styles from '../styles/index.module.css';
 import { getSortedPostsData } from '../lib/posts';
 import Date from '../components/date';
 
@@ -25,10 +25,9 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
 
-      <Link href="/about" className={utilStyles.aboutLink}>?</Link>
+      <Link href="/about" className={styles.aboutLink}>?</Link>
 
-
-      <div className={utilStyles.search}>
+      <div className={styles.search}>
         <input
           type="text"
           placeholder="Search posts"
@@ -36,17 +35,17 @@ export default function Home({ allPostsData }) {
         />
       </div>
 
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <ul className={utilStyles.list}>
+      <section>
+        <ul className={styles.list}>
           {filteredPosts.map(({ id, date, title, tags }) => (
-            <li className={utilStyles.listItem} key={id}>
+            <li className={styles.listItem} key={id}>
               <Link href={`/posts/${id}`}>{title}</Link>
               <br />
-              <small className={utilStyles.lightText}>
+              <small className={styles.lightText}>
                 <Date dateString={date} />
               </small>
               <br />
-              <div className={utilStyles.tags}>
+              <div className={styles.tags}>
                 {tags.map((tag) => (
                   <small key={tag}>
                     <Link href={`/tags/${tag}`}>{tag}</Link>

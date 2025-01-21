@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Layout, { siteTitle } from '../components/layout';
-import utilStyles from '../styles/utils.module.css';
+import styles from '../styles/about.module.css';
 import Link from 'next/link';
 import Github from '../icons/github.svg';
 import Htb from '../icons/hackthebox.svg';
@@ -12,12 +12,12 @@ export default function About() {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className={utilStyles.icons}>
-        <Link href={'https://github.com/plausible-denial'}><Github className={utilStyles.githubIcon} /></Link>
-        <Link href={'https://app.hackthebox.com/profile/964011'}><Htb className={utilStyles.htbIcon} /></Link>
-        <Link href={'#linkedin'}><LinkedIn className={utilStyles.linkedinIcon} /></Link>
+      <section className={styles.icons}>
+        <Link href={'https://github.com/plausible-denial'}><Github className={styles.githubIcon} /></Link>
+        <Link href={'https://app.hackthebox.com/profile/964011'}><Htb className={styles.htbIcon} /></Link>
+        <Link href={'https://www.linkedin.com/in/pl4us1bled3n1al'}><LinkedIn className={styles.linkedinIcon} /></Link>
       </section>
-      <section className={utilStyles.about}>
+      <section className={styles.about}>
         <p>Hello, I'm a passionate IT professional with experience in software engineering and cybersecurity.</p>
         <p>My goal is to become a cybersecurity professional, and I'm currently studying for my CompTIA Security+ certification.</p>
         <p>In my spare time, I enjoy bouldering, hiking, and volunteering with the <a href='https://www.thebmc.co.uk/en/get-involved-volunteering'>British Mountaineering Council.</a></p>
