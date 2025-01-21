@@ -7,6 +7,10 @@ import { getSortedPostsData } from '../lib/posts';
 import Date from '../components/date';
 
 function searchPosts(query, allPostsData) {
+  if (!query) {
+    return [];
+  }
+
   const lowerCaseQuery = query.toLowerCase();
 
   return allPostsData.filter(post => {
@@ -17,7 +21,7 @@ function searchPosts(query, allPostsData) {
 }
 
 export default function Home({ allPostsData }) {
-  const [filteredPosts, setFilteredPosts] = React.useState(allPostsData);
+  const [filteredPosts, setFilteredPosts] = React.useState([]);
 
   return (
     <Layout currentPage={'home'}>

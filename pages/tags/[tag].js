@@ -1,7 +1,7 @@
 import Layout from '../../components/layout';
 import Date from '../../components/date';
 import Link from 'next/link';
-import utilStyles from '../../styles/utils.module.css';
+import styles from '../../styles/post.module.css';
 import { getPostsByTag, getAllTags } from '../../lib/tags';
 import Head from 'next/head';
 
@@ -12,12 +12,12 @@ export default function Post({ tag, tagPosts }) {
                 <title>{tag}</title>
             </Head>
             <h1>{tag}</h1>
-            <ul className={utilStyles.list}>
+            <ul className={styles.list}>
             {tagPosts.map(({ id, date, title }) => (
-                <li className={utilStyles.listItem} key={id}>
+                <li className={styles.listItem} key={id}>
                     <Link href={`/posts/${id}`}>{title}</Link>
                     <br />
-                    <small className={utilStyles.lightText}>
+                    <small className={styles.lightText}>
                         <Date dateString={date} />
                     </small>
                 </li>
