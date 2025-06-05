@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import Layout, { siteTitle } from '../components/layout';
-import utilStyles from '../styles/utils.module.css';
+import aboutStyles from '../styles/about.module.css';
 import { getAllTags } from '../lib/tags';
 import { getRandomColor } from '../lib/colour';
 
@@ -11,11 +11,12 @@ export default function Tags({ allTags }) {
             <Head>
                 <title>{siteTitle}</title>
             </Head>
-            <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-                <div className={utilStyles.chipContainer}>
+            {/* section classes that didn't exist? className={`${utilStyles.headingMd} ${utilStyles.padding1px}`} */}
+            <section >
+                <div className={aboutStyles.chipContainer}>
                     {allTags.map(({ tag }) => (
                         <Link href={`/tags/${tag}`} key={tag}>
-                            <span className={utilStyles.chip} style={{ backgroundColor: getRandomColor() }}>
+                            <span className={aboutStyles.chip} style={{ backgroundColor: getRandomColor() }}>
                                 <p>{tag}</p>
                             </span>
                         </Link>
